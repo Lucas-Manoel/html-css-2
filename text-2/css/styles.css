@@ -1,0 +1,61 @@
+body{
+    font-family: helvetica;
+    color:#fff;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    background-image:url('../image/https://www.motoo.com.br/fotos/2021/5/960_720/honda_xr-250-tornado_2008_1_08052021_32154_960_720.jpg');
+    height: 300px;
+    border: 3px solid rgb(241, 18, 29);
+}
+h1{
+    font-size: 30px;
+    background-color: red;
+    margin-top: auto;
+    text-align: center;
+}
+p,h1{
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+#logo-2{
+    background-image: url('../image/https://i.ytimg.com/vi/n26xy2d9Ul8/maxresdefault.jpg');
+    height: 230px;
+    border: 3px solid red;
+}
+#logo-3{
+    background-image: url('../img/https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fpt%2Fsearch%3Fq%3Dasa%2BHonda%2BLogo&psig=AOvVaw2kKX378OtvbgqJSeJcKhxN&ust=1667362197098000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKjzya6OjPsCFQAAAAAdAAAAABAE');
+    height: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+p{
+    text-align: center;
+}
+img {
+    width: 500px;
+    height: 400px;
+    
+}
+
+.container,h2{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+h2 {
+    margin-bottom: 250px;
+    margin-left:  20px;
+}
+.sem-estilo{
+    list-style: none;
+    
+  }
+
+  
+
+    

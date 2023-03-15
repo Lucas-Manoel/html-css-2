@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+
+
+}
+#container {
+    width: 100vw; /* view width */
+    height: 100vh; /* view height */
+    background: url('../img/tenis6.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}

@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+
+#container-a{
+background-color: red;
+}
+#container-b{
+    background-color: blue;
+}

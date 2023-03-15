@@ -1,0 +1,12 @@
+img {
+    width: 500px;
+    height: 400px;
+    
+}
+img, p {
+    display: inline-block;
+}
+.container {
+    display: flex;
+    align-items: center;
+}

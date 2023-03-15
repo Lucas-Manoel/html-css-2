@@ -1,0 +1,14 @@
+div {
+    margin-bottom:10px;
+}
+input {
+    background-color: black;
+    color: red;
+}  
+input::placeholder {
+    color: #fff;
+
+}
+.profissao::placeholder {
+    color: lightblue;
+}

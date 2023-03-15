@@ -1,0 +1,176 @@
+body {
+    padding: 20px;
+    padding-bottom: 500px;
+}
+p{
+    color: green;
+    font-size: 30px
+}
+/* classes e ids */
+.meu-paragrafo {
+    background-color: black;
+    color: red;
+}
+#titulo-principal {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+
+}
+/*todos os elementos da pagina, listas*/
+*{
+    font-family: arial;
+} 
+
+p,
+h1{
+    border-bottom: ipx solid red;
+}
+/*cores*/
+.nome-da-cor{
+    color: pink;
+}
+.hexa{
+    color:blue;
+    background-color: rgb(124, 111, 111)
+}
+.rgb{
+    color: rgb(175, 175, 88)
+}
+/*fontes*/
+.serifada{
+    font-family:georgia;
+
+}
+.sem-serifa{
+    font-family: Helvetica;
+
+}
+.mono-espacada{
+      font-family:'Courier New', Courier, monospace
+}
+    /*size e weight*/
+    .tamanho-fonte-grande{
+        font-size: 64px;
+    }
+    .tamanho-fonte-pequena{
+        font-size: 12px;
+    }
+    .peso-fonte{
+        font-weight: 700;
+    }
+    .texto-italico{
+        font-style: italic;
+    }
+    /* box model */
+    .box-model{
+        width:200px;
+        height:100px;
+        border:1px solid blue;
+        padding: 20px;
+        margin: 20px;
+    }
+    /*propiedades de texto*/
+    .alinhamento{
+        text-align: center;
+    }
+    .transform-minuscula{
+        text-transform: lowercase;
+    }
+    .transform-maiuscula{
+        text-transform: uppercase;
+    }
+     /* espaçamento de linhas e letras */
+     .espacamento-texto{
+        width: 150px;
+       line-height: 40px;
+        letter-spacing: 8px;
+     }
+      /* links */
+      .decoration{
+        text-decoration: nome;
+      }
+      .visitado:visited{
+        color: orange;
+      }
+      .estilo-hover:hover{
+        background-color: rgb(40, 187, 245)
+      }
+         /* link em buttom */
+      .btn{
+        background-color: rgb(48, 212, 48);
+        border: 3px solid rgb(37, 37, 223);
+        border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        width: 120px;
+        padding: 12px 7px;
+        text-align: center;
+        margin: 20px;
+        transition: 0.5s;
+      }
+      .btn:hover{
+        background-color: rgb(67, 67, 204)
+      }
+      /* lista */
+      .sem-estilo{
+        list-style: none;
+      }
+      /* display */
+      .inline{
+        width: 50px;
+        height: 50px;
+        background-color: teal;
+        margin: 5px;
+        display: inline-block;
+      }
+      .bloco {
+         display: block;
+      }
+      .hidden {
+        display: none;
+      }
+      /* position fixed */
+      .elemento-fixo{
+        position: fixed;
+        left:0;
+        top: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        background-color: rgb(38, 225, 238);
+        border-bottom: 2px solid rgb(61, 14, 92);
+        color:#fff;
+      }
+      /* pseudo seletor */ /* pseudo class*/
+      .primeiro-elemento p:first-child{
+        color: purple;
+        font-weight: bold;
+
+      }
+      /* pseudo elemento */
+      .primeira-letra:first-letter {
+        font-size: 40px;
+        color: blue;
+        background-color: red;
+        padding: 4px
+
+      }
+      /* especifidade */
+      h2 {
+        color: red;
+        
+      }
+      .titulo {
+        color: green;
+      }
+      #meu-titulo-preferido {
+        color: blue;
+      }
+      /* important*/ 
+      h2 {
+        color: purple !important;
+
+      }
